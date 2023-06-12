@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Yumazzo Chrome Extension",
+  "description": "Yumazzo a Chrome extension built with React and TypeScript",
+  "action": {
+    "default_popup": "js/index.html",
+    "default_title": "Yumazzo Extension"
+  }
+}
