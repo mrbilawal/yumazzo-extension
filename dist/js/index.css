@@ -590,11 +590,11 @@ video {
     position: absolute;
     width: 362px;
     background: #131823;
-    box-shadow: 0px 0px 0px 1px #5b6178;
+    box-shadow: 0px 10px 30px 3px rgba(0, 0, 0, 0.4);
     border-radius: 6px;
-    padding: 8px 45px;
+    padding: 8px 10px;
     color: white;
-    top: 45px
+    top: 45px;
   }
 input {
     color: white;
@@ -612,7 +612,6 @@ input {
     gap: 10px;
 
     width: 362px;
-    height: 264px;
 
     background: #131823;
     border-radius: 6px;
@@ -624,14 +623,11 @@ input {
     padding: 10px 20px;
     gap: 16px;
 
-    width: 342px;
-    height: 244px;
-    background: #17cfc4;
+    width: 362px;
     /* Box Shadows/Light/Medium */
 
     box-shadow: 0px 10px 30px 3px rgba(5, 16, 55, 0.15);
     border-radius: 6px;
-    color: #0d1119;
   }
 button {
     height: 40px;
@@ -659,6 +655,9 @@ h3 {
 }
 .col-span-1 {
   grid-column: span 1 / span 1;
+}
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 .col-span-3 {
   grid-column: span 3 / span 3;
@@ -700,8 +699,15 @@ h3 {
 .items-center {
   align-items: center;
 }
-.gap-4 {
-  gap: 1rem;
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-8 {
+  gap: 2rem;
+}
+.bg-\[\#17cfc4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 207 196 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -729,12 +735,20 @@ h3 {
 .font-bold {
   font-weight: 700;
 }
+.\!text-black {
+  --tw-text-opacity: 1 !important;
+  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+}
 .\!text-current {
   color: currentColor !important;
 }
 .\!text-white {
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 .text-transparent {
   color: transparent;
