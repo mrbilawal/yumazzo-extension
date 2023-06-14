@@ -8,7 +8,7 @@ interface SocialIconsProps {
 const SocialIcons: React.FC<SocialIconsProps> = ({ lang }) => {
   return (
     <div className="grid grid-flow-col w-full grid-cols-12">
-      <img src="spain-flag.png" alt="flag" className="col-span-1" />
+      <img src={lang?.flag} alt="flag" className="col-span-1" />
       <h1 className="col-span-8">{lang?.title}</h1>
       <div className="flex items-center col-span-3">
         <img src="tweeter.png" alt="tweeter" />

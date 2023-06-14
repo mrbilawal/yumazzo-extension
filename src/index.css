@@ -54,11 +54,24 @@ code {
     position: absolute;
     width: 362px;
     background: #131823;
-    box-shadow: 0px 0px 0px 1px #5b6178;
+    box-shadow: 0px 10px 30px 3px rgba(0, 0, 0, 0.4);
     border-radius: 6px;
-    padding: 8px 45px;
+    padding: 8px 10px;
     color: white;
-    top: 45px
+    top: 45px;
+  }
+
+  .difficulty-vector {
+    width: 12px;
+    height: 12px;
+
+    background: #ff003d;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   input {
@@ -78,7 +91,6 @@ code {
     gap: 10px;
 
     width: 362px;
-    height: 264px;
 
     background: #131823;
     border-radius: 6px;
@@ -90,14 +102,11 @@ code {
     padding: 10px 20px;
     gap: 16px;
 
-    width: 342px;
-    height: 244px;
-    background: #17cfc4;
+    width: 362px;
     /* Box Shadows/Light/Medium */
 
     box-shadow: 0px 10px 30px 3px rgba(5, 16, 55, 0.15);
     border-radius: 6px;
-    color: #0d1119;
   }
 
   button {
