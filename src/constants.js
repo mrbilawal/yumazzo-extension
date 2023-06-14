@@ -62,7 +62,7 @@ export const languages = [
     time: "35 min",
     details: {
       icon: "paneer.png",
-      classes: "bg-[#17cfc4] !text-black",
+      classes: "bg-[#41479B] !text-whites",
       difficulty: "Hard",
       description: "In the heart of Thailand's bustling streets, Aromatic spices dance and meet, Coconut milk whispers creamy delight, Thai curry, a symphony of flavors, takes flight."
     },
