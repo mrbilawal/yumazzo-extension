@@ -1,4 +1,5 @@
 interface LanguageDetails {
+  classes: string;
   icon: string;
   difficulty: string;
   description: string;
@@ -12,6 +13,8 @@ interface InfoItem {
 
 export interface Language {
   title: string;
+  flag: string;
+  time: string,
   details: LanguageDetails;
   info: InfoItem[];
 }
