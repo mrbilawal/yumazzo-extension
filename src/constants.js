@@ -12,24 +12,24 @@ export const languages = [
     },
     info: [
       {
-        heading: "Seafood",
+        heading: "Protien",
         className: ["!!text-white !text-current !text-current"],
         text: ["Jumbo Shrimp"],
       },
       {
-        heading: "Product",
+        heading: "Spice Level",
         className:
           ["from-teal-300 to-green-500", "from-yellow-300 to-pink-500"],
-        text: ["Onion", "Tomatoes"],
+        text: ["Hot"],
       },
       {
         heading: "Spices",
         className:
           ["from-teal-300 to-green-500", "from-yellow-300 to-pink-500"],
-        text: ["Bay Leaf", "Saffron"],
+        text: ["Saffron"],
       },
       {
-        heading: "Olive Oil",
+        heading: "Cooking Oil",
         className:
           ["from-yellow-300 to-pink-500"],
         text: ["Spanish Olive Oil"],
