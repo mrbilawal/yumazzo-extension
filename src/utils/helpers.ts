@@ -1,3 +1,5 @@
+import { twMerge } from "tailwind-merge";
+
 export function debounce<T extends (...args: any[]) => void>(func: T, delay: number) {
   let timerId: NodeJS.Timeout;
 
@@ -8,3 +10,7 @@ export function debounce<T extends (...args: any[]) => void>(func: T, delay: num
     }, delay);
   };
 }
+
+export const cls = (...classes: (string | undefined)[]): string => {
+  return twMerge(...classes.filter(Boolean));
+};
