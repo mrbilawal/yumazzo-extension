@@ -33,7 +33,7 @@ const Search: React.FC<SearchProps> = ({ setSelectedLang, selectedLang }) => {
       <img src="search.png" alt="search-logo" className="search-icon" />
       <input
         placeholder="Search cuisine"
-        className="search"
+        className="search search-iput"
         onChange={onSearch}
       />
       {suggestions?.length > 0 && showSuggestions && (
